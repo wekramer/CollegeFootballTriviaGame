@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+      <item
+        android:id="@+id/scores"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="Scores"/>
+   
+       <item
+        android:id="@+id/exit"
+        android:orderInCategory="2"
+        android:showAsAction="never"
+        android:title="Exit And Save"/>
+      
+       <item
+        android:id="@+id/reload_game"
+        android:orderInCategory="3"
+        android:showAsAction="never"
+        android:title="Reload Last Game"/>
+            
+      <item
+        android:id="@+id/feedback"
+        android:orderInCategory="4"
+        android:showAsAction="never"
+        android:title="Help/Feedback"/>
+      
+        <item
+        android:id="@+id/exit_no_save"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Exit"/>
+      
+</menu>
